@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+p {
+    color: hsl(300, 43%, 22%);
+    font-weight: 500;
+}
+
+.ratings {
+    background-image: url(/images/bg-pattern-top-desktop.svg);
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.rating-text {
+    display: flex;
+    width: 50%;
+    height: 50vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating-stars {
+    display: flex;
+    width: 35%;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rating-text h2{
+    color: hsl(300, 43%, 22%);
+    font-size: 48px;
+    width: 50%;
+    margin-bottom: 24px;
+}
+
+.rating-text p {
+    font-size: 15px;
+    width: 50%;
+    color: hsl(303, 10%, 53%);
+}
+
+.container-one, .container-two, .container-three {
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    padding: 16px 32px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.container-one {
+    align-self: flex-start;
+    margin-bottom: 16px;
+}
+
+.container-one p, .container-two p, .container-three p{
+    font-weight: 700;
+}
+
+.container-two {
+    align-self: center;
+    margin-bottom: 16px;
+}
+
+.container-three {
+    align-self: flex-end;
+}
+
+.stars-img {
+    margin-right: 16px;
+}
+
+.bg-bottom img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.user-opinion {
+    display: flex;
+    justify-content: center;
+    height: 280px;
+}
+
+.first-opinion, .second-opinion, .third-opinion {
+    background-color: hsl(300, 43%, 22%);
+    width: 25%;
+    height: 250px;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.second-opinion {
+    align-self: center;
+    margin: 0 32px;
+}
+
+.third-opinion {
+    align-self: flex-end;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.user-profile img {
+    border-radius: 50%;
+    height: 50px;
+}
+
+.user-name {
+    padding-left: 24px;
+}
+
+p.name {
+    color: white;
+    margin-bottom: 6px;
+}
+p.verified {
+    color: hsl(333, 80%, 67%);
+}
+
+.opinion-text {
+    line-height: 1.5;
+}
+
+.opinion-text p {
+    color: white;
+}
